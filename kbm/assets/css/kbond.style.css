@@ -1,4 +1,72 @@
-.color-one{background: #50c1b9 none repeat scroll 0 0;}
-.color-two{background: #50c1b9 none repeat scroll 0 0;}
-.color-three{background: #cddb28 none repeat scroll 0 0;}
-.color-four{background: #7ab55c none repeat scroll 0 0;}
+.color-one {
+    background: #50c1b9 none repeat scroll 0 0;
+}
+
+.color-two {
+    background: #cddb28 none repeat scroll 0 0;
+}
+
+.color-three {
+    background: #50c1b9 none repeat scroll 0 0;
+}
+
+.color-four {
+    background: #cddb28 none repeat scroll 0 0;
+}
+
+.color-five {
+    background: #cddb28 none repeat scroll 0 0;
+}
+
+.color-six {
+    background: #50c1b9 none repeat scroll 0 0;
+}
+
+.color-seven {
+    background: #cddb28 none repeat scroll 0 0;
+}
+
+.color-eight {
+    background: #50c1b9 none repeat scroll 0 0;
+}
+
+.single_why:hover i {
+    background: #fff;
+    color: #f8f187;
+}
+
+.single_why:hover {
+    background: #f8f187
+}
+
+.sing_link_img a:hover {
+    color: #2a80b9;
+}
+
+.project-list li a:hover {
+    color: #2a80b9;
+}
+
+
+.play-video {
+background: #cddb28 none repeat scroll 0 0;
+border-radius: 500px;
+cursor: pointer;
+height: 100px;
+left: 51%;
+margin-left: -63px;
+position: absolute;
+transition: all 0.2s ease 0s;
+width: 100px;
+}
+
+.video-container a:hover .play-video {
+    background: #50c1b9;
+    color: #fff;
+}
+
+.topcontrol {background: #cddb28 none repeat scroll 0 0;border-radius: 5px;bottom: 5px;box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);color: #fff;cursor: pointer;font-size: 22px;height: 35px;line-height: 33px;opacity: 1;position: fixed;right: 5px;text-align: center;transition: all 0.2s ease 0s;width: 35px;}
+.topcontrol:hover {
+    background: #50c1b9;
+    color: #fff;
+}
