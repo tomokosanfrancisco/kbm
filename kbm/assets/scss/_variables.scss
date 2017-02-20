@@ -1,0 +1,242 @@
+// Colors
+$white: #fff;
+$gray-darker: #656666; // footer background
+$gray-dark: #323f4c; // header text
+$gray: #b9bcc7; // blog date text
+$gray-light: #dfe0de; // footer text
+$gray-lighter: #ebedf1; // icon background (about section)
+$blue: #50c1b9; // blue button
+$green: #b3d82a; //hover
+
+
+.color-one {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-two {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-three {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-four {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-five {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-six {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-seven {
+    background: $blue none repeat scroll 0 0;
+}
+
+.color-eight {
+    background: $blue none repeat scroll 0 0;
+}
+
+.single_why:hover i {
+    background: #fff;
+    color: $green;
+}
+
+.single_why:hover {
+    background: $green
+}
+
+.sing_link_img a:hover {
+    color: $green;
+}
+
+.project-list li a:hover {
+    color: $green;
+}
+
+.play-video {
+    background: $blue none repeat scroll 0 0;
+    border-radius: 500px;
+    cursor: pointer;
+    height: 100px;
+    left: 51%;
+    margin-left: -63px;
+    position: absolute;
+    transition: all 0.2s ease 0s;
+    width: 100px;
+}
+
+.video-container a:hover .play-video {
+    background: $green;
+    color: #fff;
+}
+
+.topcontrol {
+    background: #cddb28 none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: 5px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    height: 35px;
+    line-height: 33px;
+    opacity: 1;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 35px;
+}
+
+.topcontrol:hover {
+    background: #50c1b9;
+    color: #fff;
+}
+
+.ccr-price-title {
+    background: $blue none repeat scroll 0 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    height: 120px;
+    padding: 20px 0 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer_social ul li {
+    display: inline-block
+}
+
+.footer_social ul li a {
+    background: $gray-dark none repeat scroll 0 0;
+    border: 1px solid $gray-dark;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    margin: 4px;
+    padding: 9px 12px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+}
+
+.footer_social ul li a:hover {
+    color: #fff
+}
+
+.f_facebook:hover {
+    background: $green;
+    border: 1px solid $green;
+}
+
+.f_twitter:hover {
+    background: $green;
+    box-shadow: 0 0 0 0px $blue;
+    border: 1px solid $green;
+}
+
+.f_google:hover {
+    background: $green;
+    box-shadow: 0 0 0 0px $green;
+    border: 1px solid $green;
+}
+
+.f_linkedin:hover {
+    background: $green;
+    box-shadow: 0 0 0 0px $green;
+    border: 1px solid $green;
+}
+
+.f_youtube:hover {
+    background: $green;
+    box-shadow: 0 0 0 0px $green;
+    border: 1px solid $green;
+}
+
+.f_skype:hover {
+    background: $green;
+    box-shadow: 0 0 0 0px $green;
+    border: 1px solid $green;
+}
+
+.topcontrol {
+    background: $blue none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: 5px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    height: 35px;
+    line-height: 33px;
+    opacity: 1;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 35px;
+}
+
+.topcontrol:hover {
+    background: $green;
+    color: #fff;
+}
+
+.top-info-right li a i:hover {
+    color: $green;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: $blue !important;
+    background-color: $white;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #171717 !important;
+    background-color: transparent;
+}
+
+.menu-top li a:hover {
+    color: $green!important
+}
+
+.navbar-default.menu-shrink {
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 0px
+}
+
+.navbar-default.menu-shrink li a {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.navbar-default.menu-shrink li a:hover {
+    color: $green !important
+}
+
+.navbar-default .navbar-toggle {
+    background: #fff none repeat scroll 0 0
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2a80b9
+}
