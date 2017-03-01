@@ -1,0 +1,33 @@
+
+   
+    .social_table ul a {
+        background: #50c1b9;
+        border: 1px solid #50c1b9;
+        color: #fff;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        transition: all 0.5s ease 0s;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .social_table ul a:hover {
+        background: #cddb28 none repeat scroll 0 0;
+        color: #fff;
+        border-color: #fff;
+    }
+    .team_title {
+        background: #50c1b9 none repeat scroll 0 0;
+        padding: 10px 0;
+    }
+    .team_title h3 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    .team_title p {
+        color: #fff;
+    }
