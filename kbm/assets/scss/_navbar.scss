@@ -1,0 +1,6 @@
+.navbar-default.menu-shrink li a {color: rgba(0, 0, 0, 0.6) !important; }
+.navbar-default.menu-shrink li a:hover { color: $green !important }
+.navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: #fff }
+.navbar-default .navbar-toggle .icon-bar { background-color: $blue }

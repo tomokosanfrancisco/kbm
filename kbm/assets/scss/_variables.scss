@@ -2,7 +2,7 @@
 $white: #fff;
 $gray-darker: #656666; // footer background
 $gray-dark: #323f4c; // header text
-$gray: #b9bcc7; // blog date text
+$gray: #888; // blog date text
 $gray-light: #dfe0de; // footer text
 $gray-lighter: #ebedf1; // icon background (about section)
 $blue: #50c1b9; // blue button
@@ -41,22 +41,83 @@ $green: #b3d82a; //hover
     background: $blue none repeat scroll 0 0;
 }
 
+
+
 .single_why:hover i {
     background: #fff;
     color: $green;
 }
 
 .single_why:hover {
-    background: $green
+    background: $white
 }
 
 .sing_link_img a:hover {
-    color: $green;
+    color: $blue;
 }
 
 .project-list li a:hover {
     color: $green;
 }
+
+
+.single_why {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e8e8e9;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+.single_why:hover { background: #fff }
+.single_why_title { margin-bottom: 10px;
+
+}
+
+
+.single_why i {
+    color: #fff;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 5px;
+    padding: 0 15px;
+    -webkit-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+    width: 50px;
+}
+
+.single_why:hover i {
+    background: #fff;
+    color: $green;
+}
+.single_why h4 {
+    color: #333;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+.single_why:hover h4 { color: $green;
+}
+.single_why p {
+    margin-bottom: 0;
+    padding: 0 15px 15px;
+    -webkit-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+.single_why:hover p { color: $gray; }
+
+
+
+
+
+
+
+
+
+
+
 
 .play-video {
     background: $blue none repeat scroll 0 0;
@@ -240,3 +301,69 @@ $green: #b3d82a; //hover
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #2a80b9
 }
+
+
+
+ .social_table ul a {
+        background: #50c1b9;
+        border: 1px solid #50c1b9;
+        color: #fff;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        transition: all 0.5s ease 0s;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .social_table ul a:hover {
+        background: $green none repeat scroll 0 0;
+        color: #fff;
+        border-color: $green;
+    }
+    .team_title {
+        background: #50c1b9 none repeat scroll 0 0;
+        padding: 10px 0;
+    }
+    .team_title h3 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    .team_title p {
+        color: #fff;
+    }
+
+.single_testimonial i {
+    color: $blue;
+    
+}
+
+.signup_form button {
+    background: $blue none repeat scroll 0 0;
+    
+}
+.signup_form button:hover {
+    background: $green;
+    color: #fff;
+}
+
+.carousel-indicators li {
+    border: 1px solid $blue;
+    border-radius: 0px;
+height: 5px;
+    margin: 0 1px;
+    width: 10px;
+    background: $blue;
+}
+.carousel-indicators .active {
+background-color: $green;
+border-radius: 0;
+height: 5px;
+margin: 0 1px;
+width: 20px;
+}
+
+
