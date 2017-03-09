@@ -7,8 +7,6 @@ $gray-light: #dfe0de; // footer text
 $gray-lighter: #ebedf1; // icon background (about section)
 $blue: #50c1b9; // blue button
 $green: #b3d82a; //hover
-
-
 .color-one {
     background: $blue none repeat scroll 0 0;
 }
@@ -41,8 +39,6 @@ $green: #b3d82a; //hover
     background: $blue none repeat scroll 0 0;
 }
 
-
-
 .single_why:hover i {
     background: #fff;
     color: $green;
@@ -60,19 +56,21 @@ $green: #b3d82a; //hover
     color: $green;
 }
 
-
 .single_why {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #e8e8e9;
     margin-bottom: 15px;
     -webkit-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
-}
-.single_why:hover { background: #fff }
-.single_why_title { margin-bottom: 10px;
-
+    transition: all 0.2s ease 0s;
 }
 
+.single_why:hover {
+    background: #fff
+}
+
+.single_why_title {
+    margin-bottom: 10px;
+}
 
 .single_why i {
     color: #fff;
@@ -82,7 +80,7 @@ $green: #b3d82a; //hover
     margin-right: 5px;
     padding: 0 15px;
     -webkit-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
     width: 50px;
 }
 
@@ -90,34 +88,30 @@ $green: #b3d82a; //hover
     background: #fff;
     color: $green;
 }
+
 .single_why h4 {
     color: #333;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: capitalize;
     -webkit-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
 }
-.single_why:hover h4 { color: $green;
+
+.single_why:hover h4 {
+    color: $green;
 }
+
 .single_why p {
     margin-bottom: 0;
     padding: 0 15px 15px;
     -webkit-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
 }
-.single_why:hover p { color: $gray; }
 
-
-
-
-
-
-
-
-
-
-
+.single_why:hover p {
+    color: $gray;
+}
 
 .play-video {
     background: $blue none repeat scroll 0 0;
@@ -302,68 +296,81 @@ $green: #b3d82a; //hover
     background-color: #2a80b9
 }
 
+.social_table ul a {
+    background: #50c1b9;
+    border: 1px solid #50c1b9;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.5s ease 0s;
+    width: 40px;
+    border-radius: 50%;
+}
 
+.social_table ul a:hover {
+    background: $green none repeat scroll 0 0;
+    color: #fff;
+    border-color: $green;
+}
 
- .social_table ul a {
-        background: #50c1b9;
-        border: 1px solid #50c1b9;
-        color: #fff;
-        display: inline-block;
-        height: 40px;
-        line-height: 40px;
-        transition: all 0.5s ease 0s;
-        width: 40px;
-        border-radius: 50%;
-    }
-    .social_table ul a:hover {
-        background: $green none repeat scroll 0 0;
-        color: #fff;
-        border-color: $green;
-    }
-    .team_title {
-        background: #50c1b9 none repeat scroll 0 0;
-        padding: 10px 0;
-    }
-    .team_title h3 {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 5px;
-        margin-top: 0;
-        text-transform: uppercase;
-    }
-    .team_title p {
-        color: #fff;
-    }
+.team_title {
+    background: #50c1b9 none repeat scroll 0 0;
+    padding: 10px 0;
+}
+
+.team_title h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.team_title p {
+    color: #fff;
+}
 
 .single_testimonial i {
     color: $blue;
-    
 }
 
 .signup_form button {
     background: $blue none repeat scroll 0 0;
-    
 }
+
 .signup_form button:hover {
     background: $green;
     color: #fff;
 }
 
 .carousel-indicators li {
-    border: 1px solid $blue;
+    border: 0px;
     border-radius: 0px;
-height: 5px;
-    margin: 0 1px;
-    width: 10px;
+    font-size: 20px;
+    line-height: 14px;
+    margin: 0 2px;
+    width: 0px;
     background: $blue;
 }
+
 .carousel-indicators .active {
-background-color: $green;
-border-radius: 0;
-height: 5px;
-margin: 0 1px;
-width: 20px;
+    background-color: $green;
+    border-radius: 0;
+    height: 0px;
+    margin: 0 1px;
+    width: 0px;
 }
 
+.hero-text h2 {
+    color: $blue;
+}
 
+.hero-text p {
+    color: $blue;
+}
+
+.arrow{
+    color: $blue;
+}
